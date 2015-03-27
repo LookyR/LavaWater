@@ -1,0 +1,48 @@
+# Hello there! :)
+
+name: LavaWater
+version: 2.0.26
+description: This plugin allows to change result of cobblestone generator depending on which block was in the space before.
+    It was created as an reaction to solving the obsidian-generator bug (see https://bugs.mojang.com/browse/MC-4239 ).
+author: LookyR
+main: cz.lookyr.lavawater.LavaWater
+
+commands:
+    lavawater:
+        description: Displays version of LavaWater and list of replaced blocks
+        permission: lavawater.command
+        permission-message: "§cYou don't have permission"
+        usage: "/<command> help|list|add|remove [...]"
+    # Feel free to add aliases or completely rename the main command.
+
+permissions:
+    lavawater:
+        description: Everything related to LavaWater
+        default: true
+    lavawater.command:
+        description: Permission to use /lavawater and /lavawater help
+        default: true
+        children:
+            lavawater: true
+    lavawater.command.*:
+        description: Permission to all /lavawater subcommands
+        default: false
+        children:
+            lavawater.command.list: true
+            lavawater.command.add: true
+            lavawater.command.remove: true
+    lavawater.command.list:
+        description: Permission for using /lavawater list
+        default: true
+        children:
+            lavawater.command: true
+    lavawater.command.add:
+        description: Permission for using /lavawater add
+        default: op
+        children:
+            lavawater.command: true
+    lavawater.command.remove:
+        description: Permission for using /lavawater remove
+        default: op
+        children:
+            lavawater.command: true

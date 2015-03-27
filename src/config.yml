@@ -1,0 +1,4 @@
+# This is default configuration file. See http://dev.bukkit.org/bukkit-plugins/lavawater/pages/configuration/
+rules:
+  redstone:
+    result: obsidian
