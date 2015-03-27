@@ -1,15 +1,11 @@
 /*
- * (C) Copyleft 2014 LookyR
- * 
- * No rights reserved. Copying, editing, redistributing is allowed.
- * ... WITH NO WARRANTY OF ANY KIND!
- * You can use this code to commercial purposes.
- * 
- * You can change these license headers without
- * naming contributors - um - contributor.
- * 
- * That's all, let's see the code ;)
+ * Creative Commons License
+ *
+ * LavaWater by LookyR is licensed under a Creative Commons
+ * Attribution-NonCommercial-ShareAlike 4.0 International License.
+ * Based on a work at https://github.com/LookyR/LavaWater.
  */
+
 package cz.lookyr.lavawater;
 
 import java.util.ArrayList;
