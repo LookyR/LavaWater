@@ -4,6 +4,8 @@
  * LavaWater by LookyR is licensed under a Creative Commons
  * Attribution-NonCommercial-ShareAlike 4.0 International License.
  * Based on a work at https://github.com/LookyR/LavaWater.
+ *
+ * See http://creativecommons.org/licenses/by-nc-sa/4.0/
  */
 
 package cz.lookyr.lavawater;
